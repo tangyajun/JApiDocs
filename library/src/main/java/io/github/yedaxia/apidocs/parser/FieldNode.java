@@ -23,7 +23,7 @@ public class FieldNode {
     }
 
     public Boolean getNotNull() {
-        return notNull;
+        return notNull==null?Boolean.FALSE:notNull;
     }
 
     public void setNotNull(Boolean notNull) {
